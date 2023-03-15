@@ -37,8 +37,8 @@ const ComputerCanvas =()=>{
       gl={{preserveDrawingBuffer:true}}
     >
       {/* Come from React! -> Allow to have loader */}
-      {/* <Suspense fallback={<CanvasLoader />}> */}
-      <Suspense >
+      <Suspense fallback={<CanvasLoader />}>
+      {/* <Suspense > */}
         <OrbitControls
           enableZoom={false}
           // Arround with specific axis not 360
