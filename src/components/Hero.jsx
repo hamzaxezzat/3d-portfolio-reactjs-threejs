@@ -9,12 +9,18 @@ const Hero = () => {
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915eff]" />
-          <div className=" w-1 sm:h-80 h-40 violet-gradient" />
+          <div className="w-5 h-5 rounded-full bg-[#d1fe49]" />
+          <div className=" w-1 sm:h-48 h-48 violet-gradient " />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}> Hi, I'm <span className="text-[#915eff]"> Hamza</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>Frontend Developer | <br className="sm:block hidden"/>develop 3d Visuals,  UI/UX and web applications</p>
+          <h1 className={`${styles.heroHeadText} text-white`}> Hello, I'm <span className="text-[#d1fe49]"> Hamza</span></h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>Frontend - Fullstack Developer  <br className="sm:block hidden"/>UI/UX Designer</p>
+          <p className="mt-2 text-[14px]">
+            <span className="text-[#e9d66d99]">#Javascript </span>
+            <span className="text-[#287ea499]">#ReactJs </span>
+            <span className="text-[#7248b699]">#Redux </span>
+            <span className="text-[#aaa]">#NextJS</span>
+            </p>
         </div>
       </div>
         <ComputersCanvas />

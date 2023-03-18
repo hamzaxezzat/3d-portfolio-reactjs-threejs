@@ -17,7 +17,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_Link})=
         }}
           className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[230px] bg-tertiary'>
           <img src={image}
           alt={name}
           className='w-full h-full object-cover rounded-2xl'
@@ -38,7 +38,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_Link})=
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
-        <div className='mt-4 flex flex-wrap ga-2'>
+        <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag)=>(
             <p key={tag.name} className={`text-[14px] ${tag.color}`}>
                #{tag.name}&nbsp; 
