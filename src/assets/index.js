@@ -20,19 +20,29 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png";
+import ps from "./tech/ps.png";
+import ai from "./tech/ai.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import freelance from "./company/freelance.png";
 import attractant from "./company/attractant.png";
+import kartonah from "./company/kartonah.png";
+import neu from "./company/neu.png";
 
-import carrent from "./carrent.png";
+// Projects
+import carrent from "./projects/realestate.jpeg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  freelance,
   attractant,
+  kartonah,
+  neu,
   logo,
   backend,
   creator,
@@ -61,4 +71,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  nextjs,
+  ps,
+  ai,
 };

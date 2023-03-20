@@ -1,5 +1,8 @@
 import {
+  freelance,
   attractant,
+  kartonah,
+  neu,
   mobile,
   backend,
   creator,
@@ -24,6 +27,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  nextjs,
+  ps,
+  ai,
 } from "../assets";
 
 export const navLinks = [
@@ -94,6 +100,10 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "Next Js",
+    icon: nextjs,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
@@ -106,21 +116,29 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  // {
+  //   name: "ps",
+  //   icon: ps,
+  // },
+  // {
+  //   name: "ai",
+  //   icon: ai,
+  // },
 ];
 
 const experiences = [
   {
     title: "Web Developer & Graphic Designer",
     company_name: "Freelance",
-    icon: creator,
-    iconBg: "#383E56",
+    icon: freelance,
+    iconBg: "#3eb2fe",
     date: "Jan 2018 - Present",
     points: [
       "Design new brand identities and social media",
@@ -137,36 +155,36 @@ const experiences = [
     iconBg: "black",
     date: "Jan 2021 - Feb 2022",
     points: [
-      " Create websites from scratch",
-      " Technical support for existing websites",
-      " Design new features for existing websites.",
-      " Manage servers, hosting and domains",
+      "Developing and maintaining web applications using native, Wordpress and other related technologies.",
+      "Technical support for existing websites",
+      "Design new features for existing websites.",
+      "Manage servers, hosting and domains",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "UI/UX & Graphic Designer",
+    company_name:
+      "Kartonah: is one of the B2B marketplaces that has millions of potential Wholesalers, buyers and sellers united under one hood.",
+    icon: kartonah,
+    iconBg: "white",
+    date: "Mai 2020 - Dec 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Creation of wireframes and design of the user",
+      "Engaged with development & design teams",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "IT-specialist",
+    company_name: "Near East University | IT Department",
+    icon: neu,
+    iconBg: "white",
+    date: "Aug 2018 - Jan 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Technical support and IT manager assistance.",
+      "Configuration and maintenance of both hardware and software",
+      "Monitoring of main servers and other network devices.",
     ],
   },
 ];
@@ -200,9 +218,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Realestate MERN-stack",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This MERN stack real estate application, uses Auth0 for login, it has the search functionality to look for properties listed for sale, and visually displays the search results on a map on one side and properties listed on the other side.",
     tags: [
       {
         name: "react",
@@ -218,7 +236,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/hamzaxezzat/FullStack-MERN-CRUD",
   },
   {
     name: "Job IT",
