@@ -72,6 +72,4 @@ export {
   jobit,
   tripguide,
   nextjs,
-  // ps,
-  // ai,
 };
