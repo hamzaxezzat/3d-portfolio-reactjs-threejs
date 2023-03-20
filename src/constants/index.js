@@ -47,19 +47,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Fullstack Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "UI / UX designing",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Branding designing",
     icon: creator,
   },
 ];
@@ -228,6 +228,10 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "refine",
+        color: "blue-text-gradient",
+      },
     ],
     image: realestate,
     source_code_link: "https://github.com/hamzaxezzat/FullStack-MERN-CRUD",
@@ -235,7 +239,7 @@ const projects = [
   {
     name: "Alwadi",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      " the world’s leading investment in agricultural, we providers that is revolutionising and redefining the way sustainable green sources are important across the world. We are presented in Kampala - Uganda.",
     tags: [
       {
         name: "Php",
@@ -246,8 +250,16 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
+        name: "Javascript",
+        color: "yellow-text-gradient",
+      },
+      {
         name: "scss",
         color: "pink-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "dark-text-gradient",
       },
     ],
     image: alwadi,
@@ -263,8 +275,12 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Wordpress",
+        name: "WP",
         color: "green-text-gradient",
+      },
+      {
+        name: "WooCommerce",
+        color: "violet-text-gradient",
       },
       {
         name: "css",
