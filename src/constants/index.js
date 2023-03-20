@@ -1,4 +1,5 @@
 import {
+  attractant,
   mobile,
   backend,
   creator,
@@ -116,29 +117,30 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Web Developer & Graphic Designer",
+    company_name: "Freelance",
+    icon: creator,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2018 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Design new brand identities and social media",
+      "Create Native & CMS Websites",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Management of existing websites",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    title: "Web-Developer",
+    company_name:
+      "Attractant: Marketing solutions, graphic design and web development company",
+    icon: attractant,
+    iconBg: "black",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Create websites from scratch",
+      " Technical support for existing websites",
+      " Design new features for existing websites.",
+      " Manage servers, hosting and domains",
     ],
   },
   {

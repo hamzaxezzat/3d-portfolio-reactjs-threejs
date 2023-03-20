@@ -11,8 +11,8 @@ module.exports = {
         secondary: "#aaa",
         // tertiary: "#151030",
         tertiary: "#111",
-        "black-100": "#100d25",
-        "black-200": "#090325",
+        "black-100": "#141414",
+        "black-200": "#000000",
         "white-100": "#f3f3f3",
       },
       boxShadow: {
