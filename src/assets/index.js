@@ -21,8 +21,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import nextjs from "./tech/nextjs.png";
-import ps from "./tech/ps.png";
-import ai from "./tech/ai.png";
+// import ps from "./tech/ps.png";
+// import ai from "./tech/ai.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -72,6 +72,6 @@ export {
   jobit,
   tripguide,
   nextjs,
-  ps,
-  ai,
+  // ps,
+  // ai,
 };
