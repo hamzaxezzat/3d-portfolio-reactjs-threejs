@@ -29,18 +29,25 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import freelance from "./company/freelance.png";
-import attractant from "./company/attractant.png";
+import attractantLogo from "./company/attractant.png";
 import kartonah from "./company/kartonah.png";
 import neu from "./company/neu.png";
 
 // Projects
-import carrent from "./projects/realestate.jpeg";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// import carrent from "./projects/realestate.jpeg";
+// import jobit from "./jobit.png";
+// import tripguide from "./tripguide.png";
+import realestate from "./projects/realestate.jpeg";
+import abaad from "./projects/abaad.jpg";
+import alwadi from "./projects/alwadi.jpg";
+import attractant from "./projects/attractant.jpg";
+import ecollection from "./projects/ecollection.jpg";
+import evimki from "./projects/evimki.jpg";
+import imergo from "./projects/imergo.jpg";
 
 export {
   freelance,
-  attractant,
+  attractantLogo,
   kartonah,
   neu,
   logo,
@@ -64,12 +71,19 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
-  nextjs,
+  // meta,
+  // shopify,
+  // starbucks,
+  // tesla,
+  // carrent,
+  // jobit,
+  // tripguide,
+  // nextjs,
+  realestate,
+  abaad,
+  alwadi,
+  attractant,
+  ecollection,
+  evimki,
+  imergo,
 };

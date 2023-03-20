@@ -1,6 +1,6 @@
 import {
   freelance,
-  attractant,
+  attractantLogo,
   kartonah,
   neu,
   mobile,
@@ -19,11 +19,15 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
-  nextjs,
+  // Projects
+  realestate,
+  abaad,
+  alwadi,
+  attractant,
+  ecollection,
+  evimki,
+  imergo,
 } from "../assets";
 
 export const navLinks = [
@@ -94,10 +98,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "Next Js",
-    icon: nextjs,
-  },
-  {
     name: "MongoDB",
     icon: mongodb,
   },
@@ -145,7 +145,7 @@ const experiences = [
     title: "Web-Developer",
     company_name:
       "Attractant: Marketing solutions, graphic design and web development company",
-    icon: attractant,
+    icon: attractantLogo,
     iconBg: "black",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -214,7 +214,7 @@ const projects = [
   {
     name: "Realestate MERN-stack",
     description:
-      "This MERN stack real estate application, uses Auth0 for login, it has the search functionality to look for properties listed for sale, and visually displays the search results on a map on one side and properties listed on the other side.",
+      "This MERN stack real estate application, uses AuthO for login, it has the search functionality to look for properties listed for sale, and visually displays the search results on a map on one side and properties listed on the other side, it also allows the user to add properties to their favorites list. The application provides the agent with user.",
     tags: [
       {
         name: "react",
@@ -229,41 +229,41 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: realestate,
     source_code_link: "https://github.com/hamzaxezzat/FullStack-MERN-CRUD",
   },
   {
-    name: "Job IT",
+    name: "Alwadi",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "Php",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "MySQL",
+        color: "orange-text-gradient",
       },
       {
         name: "scss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: alwadi,
+    source_code_link: "https://github.com/hamzaxezzat/Alwadi-Investment",
   },
   {
-    name: "Trip Guide",
+    name: "Evimki",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An e-commerce platform is the content management system (CMS) and commerce engine websites use to manage catalogued products, register purchases and manage a users relationship with an online retailer. It doesn't matter if your business is large or small, B2B or B2C, selling tangible goods or providing remote services.",
     tags: [
       {
-        name: "nextjs",
+        name: "Php",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Wordpress",
         color: "green-text-gradient",
       },
       {
@@ -271,8 +271,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: evimki,
+    source_code_link: "http://evimki.com",
   },
 ];
 
