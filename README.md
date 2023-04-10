@@ -1,3 +1,25 @@
+## Resume portfolio
+
+![portfolio!](src/resume.gif)
+
+### This project
+
+Build to taste our habilities in React used my formation in field from developer to build my own portfolio!
+
+## Features
+
+- Components of React; <br>
+- Components of ReactDOM; <br>
+- Components of ReactIcons; <br>
+- Componets of ThreeJS; <br>
+- Modules of CSS; <br>
+- Custom own hooks; <br>
+- Conventional Commmits. <br>
+
+### Live Version
+
+<a href="http://resume.hamzaezzat.com">resume.hamzaezzat.com</a>
+
 ## Stack
 
 - [`nextjs`](https://nextjs.org/) &ndash; React Framework for Production
