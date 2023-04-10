@@ -8,13 +8,14 @@ Build to taste our habilities in React used my formation in field from developer
 
 ## Features
 
-- Components of React; <br>
-- Components of ReactDOM; <br>
-- Components of ReactIcons; <br>
-- Componets of ThreeJS; <br>
-- Modules of CSS; <br>
-- Custom own hooks; <br>
-- Conventional Commmits. <br>
+- 3D Objects Animation
+- Components of React
+- Components of ReactDOM
+- Components of ReactIcons
+- Componets of ThreeJS
+- Modules of CSS
+- Custom own hooks
+- Conventional Commmits.
 
 ### Live Version
 
